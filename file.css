@@ -1,0 +1,134 @@
+.logo {
+    position: static;
+    padding-top: 109px;
+}
+
+.search{
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 482px; 
+    height: 44px;
+
+    margin: 0 auto;
+}
+
+.googleSearch {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+
+    position: relative;
+    right: 100px;
+    top: 25px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+
+    cursor: pointer;
+}
+
+.googleSearch:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    background-color: #f8f8f8;
+}
+
+.feelingLucky {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+
+    position: relative;
+    left: 50px;
+    bottom: 13px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+
+    cursor: pointer;
+}
+
+.feelingLucky:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    background-color: #f8f8f8;
+}
+
+.topNavbar {
+    list-style-type: none;
+    margin-top: 25px;
+    font-size: small;
+    font-family: arial, sans-serif;
+    color: #000;
+    opacity: 0.75;
+}
+
+.topNavbar > li {
+    padding-left: 15px;
+}
+
+.gmail {
+    float: right; 
+}
+
+.images {
+    float: right;
+}
+.signIn{
+    float: right;   
+}
+
+.bottomNavbar {
+    position: fixed;
+    list-style-type: none;
+    bottom: 0;
+    width: 100%;
+    min-width: 880px;
+    margin-left: -27px;
+    margin-bottom: 0;
+
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #222;
+    opacity: 0.75;
+    background-color: #f2f2f2;
+    
+    line-height: 40px;
+}
+
+.bottomNavbar > li {
+    padding-left: 27px;
+}
+
+.privacy{
+    position: relative;
+    right: 40px;
+    float: right; 
+}
+.terms{
+    float: right; 
+    position: relative;
+    right: 40px;
+}
+.settings{
+    float: right; 
+    position: relative;
+    right: 40px;
+}
+li {
+    display: inline;
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
